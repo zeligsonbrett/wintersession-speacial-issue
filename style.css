@@ -1,0 +1,591 @@
+* {
+  margin: 0; padding: 0;
+  font-family: minion-pro;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: black;
+  overflow-x: hidden;
+
+}
+body{
+background-color: black;
+color: white;
+overflow-x: hidden;
+}
+
+.logo a{
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.logo {
+  margin-top: 5px;
+  height: 30px;
+  width: auto;
+  position: absolute;
+}
+.GlowColor{
+  color: #ffdd87;
+  text-shadow:1px 1px 10px #ffdd87;
+
+}
+.text p a{
+  color: black;
+}
+#Tierra-y-memoria b{
+  text-shadow:1px 1px 10px #ffdd87;
+  color: #ffdd87;
+}
+
+#Tierra-y-memoria a{
+  color: #ffdd87;
+
+}
+
+
+.projectTitle{
+  /* padding-top: 5% ; */
+  
+  /* padding-bottom: 5% ; */
+  /* text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 20px; */
+  /* font-family: 'franklin-gothic-urw'; */
+    /* margin-top: -70px; */
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 11vw;
+    /* transform: skewY(-10deg); */
+    line-height: 12vw;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: #394fca;
+    text-shadow:
+      -1px -1px 0 #db693f,
+      -2px -2px 0 #db693f,
+      -3px -3px 0 #ddadcf,
+      -4px -4px 0 white,
+      -5px -5px 0 white,
+      -6px -6px 0 white,
+      -7px -7px 0 white,
+      -8px -8px 0 white
+
+}
+
+#gustavo-pic{
+  width: 100%;
+  text-align: center;
+}
+.yellow{
+  color: yellow;
+}
+.red{
+  color: red;
+}
+#cover {
+  background-color: white;
+  min-height: none;
+}
+
+#podcast .podcast-container{
+  margin: auto;
+padding-top: 40px;
+padding-bottom: 40px;
+  width: 50%;
+}
+
+#podcast{
+
+  min-height: 70vh;
+
+  background-color: #3749CD;
+/* background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%); */
+
+}
+
+
+
+#podcast .text {
+
+ margin: auto;
+ padding-top: 40px;
+}
+
+
+
+#cover img{
+  width: 100%;
+  vertical-align: bottom !important;
+}
+
+#projectTitleDiv{
+  background-color: #EEEEEF;
+  /* background: radial-gradient(600px at 50% 50% , #fff 20%, #ddadcf 150%); */
+}
+
+#letterfromed .text{
+  padding-top: 2%;
+  width: 70%;
+  margin: auto;
+
+}
+
+
+
+
+.basicdommedia{
+  width: 100%;
+}
+
+#puzzle-btn{
+  background-color: #db693f;
+  color: black;
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 10px;
+  transition: ease 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#puzzle-btn:hover{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #ddadcf;
+  transition: ease 0.3s;
+}
+
+#history-of-wintersession, #photostory{
+  background-color: #495AA7;
+  /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
+}
+
+#history-of-wintersession .text p a, #photostory .text p a{
+  color: #ddadcf;
+  /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
+}
+
+#opinion-winter2, #puzzle{
+  background-color: #394fca;
+}
+
+#offerings-by-numbers{
+  background-color:  #DD6737;
+}
+
+#dallas-mayor, #sports-winter, #podcast{
+  background-color: #EEEEEF;
+}
+
+#dallas-mayor .text, #podcast .text, #sports-winter .text{
+  color: black;
+}
+
+#dallas-mayor .text p a, #podcast .text p a, #sports-winter .text p a{
+  color:#db693f;
+}
+
+#prospect-11{
+  background-color: #db693f;
+}
+
+#opinion-winter{
+  background-color: #db693f;
+}
+
+#wintersession-nums, #humor-winter{
+  background-color:#DEACCF;
+}
+
+#wintersession-nums .text, #humor-winter .text{
+  color: black;
+}
+
+#wintersession-nums .text p a, #humor-winter .text p a{
+  color:#3749CD;
+}
+
+#prospect-11 .text p u{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 2.4em;
+}
+
+#prospect-11 .text p em{
+  position: relative;
+  top: -10px;
+}
+
+
+.info a:hover{
+text-decoration:underline;
+}
+
+
+.info .text{
+width: 70%;
+margin: auto;
+font-family: 'minion-pro';
+}
+
+.info p {
+margin-bottom: 20px ;
+font-size: 20px;
+line-height: 26px;
+}
+
+
+.info .media-embed {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+
+}
+
+/* #Tierra-y-memoria .headline{
+  font-family: 'franklin-gothic-urw';
+
+} */
+
+.article-box img{
+  width: 40%;
+  align-self: flex-start;
+
+}
+#credits{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+}
+.info.article-box a{
+  color: white !important;
+}
+
+.info a{
+  color: white;
+  text-decoration: none;
+}
+
+#offerings-by-numbers a{
+  color: yellow;
+
+}
+
+.article-box{
+  display: flex;
+  padding: 7% 5% 7% 5%;
+  background-color: #001209;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border-radius: 9px;
+  opacity: 30%;
+
+}
+#humor{
+  background-color: #DD6737;
+  color: #002535;
+}
+
+#humor a{
+  color: #8B4000;
+}
+
+.intro-box{
+  text-align: center;
+  margin: auto;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-intro{
+  /* display: flex; */
+
+}
+
+.marie-sig{
+  text-align: right;
+  line-height: 1px;
+}
+
+#explore {
+  background-color: #014421;
+  /* background-image: linear-gradient(180deg, #014421 0%, #6A2715 74%); */
+  color: white;
+}
+
+
+#explore .headline{
+  color: white;
+  text-shadow: 6px -2px rgba(193, 110, 37, 0.6);
+}
+#podcast a:hover{
+  text-decoration: none;
+
+}
+
+#explore a{
+  color: white;
+}
+#prospect-11 a{
+  color: maroon;
+}
+.article-box-spacer{
+  width: 50px;
+}
+.article-box-headline{
+  /* line-height: 15px; */
+  padding-bottom: 10px;
+}
+.interview-box{
+  display: flex;
+}
+
+.interview-box .img-container{
+  width: 40%;
+}
+
+.interview-box .interview-text{
+  width: 60%;
+}
+
+.interview-box img{
+  width: 100%;
+}
+.info h1{
+padding-bottom: 30px;
+}
+
+.info .headline {
+font-size: 60px;
+line-height: 60px;
+padding-bottom: 25px;
+}
+
+.info .overline {
+font-family: 'franklin-gothic-urw';
+padding-bottom: 0%;
+padding-top: 10vh;
+
+}
+
+.intro-box{
+  display: flex;
+}
+
+.intro-box .img-wrapper{
+  width: 70%;
+}
+.intro-box img{
+  width: 100%;
+}
+#letterfromed .overline{
+  padding-top: 0vh !important;
+}
+.info .overline-box {
+  font-family: 'franklin-gothic-urw';
+  padding-bottom: 0%;
+
+  }
+
+.article-box .headline {
+    font-size: 40px;
+    padding-bottom: 10px;
+
+    }
+
+.info .caption {
+text-align: right;
+/* font-family: 'franklin-gothic-urw'; */
+font-size: 15px;
+line-height: 20px;
+}
+
+.info .caption-left {
+  text-align: left;
+}
+
+
+.interview-title{
+  font-family: 'franklin-gothic-urw' !important;
+}
+
+.interview-response{
+
+  color: maroon;
+
+}
+
+#keynote-speech a{
+  color: maroon;
+  font-family: 'franklin-gothic-urw' !important
+}
+#keynote-speech p{
+  font-family: 'franklin-gothic-urw' !important
+}
+
+#keynote-speech strong{
+  font-family: 'franklin-gothic-urw' !important
+}
+
+#keynote-speech {
+  background-color: #DEACCF;
+  color: #654321;
+}
+.vertical-photo{
+  width: 50%
+}
+.section {
+min-height: 100vh;
+background-color: black;
+
+
+}
+
+#slide {
+  position: absolute;
+  left: -100%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
+}
+
+#slide2 {
+  position: absolute;
+  left: -100%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.9s;
+}
+
+#slide3 {
+  position: absolute;
+  left: -100%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1.3s;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 5%; }
+}
+
+@keyframes slide {
+  100% { left: 5%; }
+}
+
+.mobileTitle{
+  display: none;
+}
+
+@media only screen and (max-width: 980px) {
+  .projectTitle{
+    position: static;
+    text-align: center;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+  }
+
+  .mobileTitle{
+    display: block;
+    
+  }
+
+
+  #slide, #slide2, #slide3{
+    display: none;
+  }
+
+  #issue{
+    line-height: -300px;
+  }
+  .article-box{
+    flex-direction: column;
+  }
+
+  .article-box img{
+    width: 100%;
+    height: auto;
+    order: 5;
+  }
+
+
+  .absolute-bg {
+    position: relative;
+  }
+  .gallery-cell {
+    width: 100% !important; /* full width */
+  }
+
+  .info .headline {
+    
+    line-height: 33px;
+    font-size: 30px !important;
+  }
+
+  .intro-box{
+    flex-direction: column;
+  }
+
+  .intro-box .img-wrapper{
+    width: 100%;
+  }
+  .intro-box img{
+    width: 100%;
+  }
+
+  .info .text{
+    width: 85%;
+  }
+  .interview-box{
+flex-direction: column;
+  }
+
+  .interview-box .img-container{
+    width: 100%;
+  }
+
+  .interview-box .interview-text{
+    width: 100%;
+  }
+
+  .section{
+    min-height: fit-content;
+  }
+
+
+
+
+
+
+/* Cool font from Google Fonts! */
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+body {
+    margin: 0px;
+}
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+}
